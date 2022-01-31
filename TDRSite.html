@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="TDRSite.css" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle py-3" type="button" id="howItWorks" data-bs-toggle="dropdown" aria-expanded="false">
+                HOW IT WORKS
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="howItWorks">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle py-3" type="button" id="aboutUs" data-bs-toggle="dropdown" aria-expanded="false">
+                ABOUT US
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="aboutUs">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle py-3" type="button" id="supportAndContact" data-bs-toggle="dropdown" aria-expanded="false">
+                SUPPORT & CONTACT
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="supportAndContact">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="authenticationRow">
+        <div id="logoWrap">
+            <img id="logo" src="dealerReview.jpg">
+        </div>
+        <div id="authenticationButtons">
+            <button id="login" class="btn">
+                <img src="lock.png" al="lock" class="buttonImage"> 
+                <span>Log In</span>
+            </button>
+            <button id="register" class="btn">
+                <img src="person.png" al="lock" class="buttonImage"> 
+                <span>Register</span>
+            </button>
+        </div>
+    </div>
+    <div id="searchRow">
+        <div id="searchBar">
+            <input type="text" id="searchInput">
+            <button class="btn" id="searchButton">SEARCH</button>
+        </div>
+    </div>
+    <div id="grid">
+        <div class="infoBox" id="links"> 
+            <div class="subgrid">
+                <p class="infoHeader-1">
+                    IMPORTANT LINKS
+                </p>
+                <div class="important-links-texts">
+                    <img src="orange-group-png-7.png" id="orangePeople" al="lock" class="buttonImage"> 
+                    <span>MEET THE STAFF</span>
+                </div>
+                <div class="important-links-texts">
+                    <img src="download.png" id="orangePeople" al="lock" class="buttonImage"> 
+                    <span>SEE LEGAL CASES</span>
+                </div>
+                <div class="important-links-texts">
+                    <img src="download.png" id="orangePeople" al="lock" class="buttonImage"> 
+                    <span>IN THE PRESS</span>
+                </div>
+            </div>
+        </div>
+        <div class="infoBox" id="reviews">
+            <p class="infoHeader-1">READ THESE REVIEWS</p>
+            <div><img id="logo" src="icon-google-reviews.png"></div>
+            <div><img id="logo" src="fakeYelp.jpg"></div>
+        </div>
+        <div class="infoBox" id="dealers">
+            <p class="infoHeader-1">DEALERS NEAR ME</p>
+            <p>
+                <div class="bolded">ACURA DEALER</div>
+                <div class="boldedOrange">RICK CASE ACURA</div>
+                <div class="smallerFont">400 N MIAMI AVE SUITE 202 MIAMI FL,33028</div>
+            </p>
+            <p>
+                <div class="bolded">MAZDA DEALER</div>
+                <div class="boldedOrange">RICK CASE MAZDA</div>
+                <div class="smallerFont">400 N MIAMI AVE SUITE 202 MIAMI FL,33028</div>
+            </p>
+        </div>
+        <div class="infoBox" id="dealer">
+            <p id="infoHeader-2">Rick Case Acura</p>
+            <div id="dealerflex">
+                <div id="location">
+                    <p class="smallerFont">Enough is enough with the bad car buying experience! This site is for the community to voice their bad experiences shared at the Rick Case Acura dealership of Plantation,FL. I know I have a few stories to share, and we look forward to sharing these details with all prospective car buyers.</p>
+                    <p class="bolded">Rick Case Acura Plantation</p>
+                    <div class="smallerFont">875FL-7,Plantation,FL33317</div>
+                    <div><img id="map" src="gulfstream-park-fl-google-maps.png"></div>
+                </div>
+                <div id="contact">
+                    <div class="bolded">GENERAL MANAGER</div>
+                    <div><img id="LeroyLarson" src="rickCaseAcura.jpg"></div>
+                    <div class="bolded">Leroy Larson</div>
+                    <div class="smallerFont">General Manager</div>
+                    <div class="boldedOrange" id="smallerFont">leroylarson@rickcase.com</div>
+                    <div class="purpleFont">Want to share your experience at Rick Case Acura?</div>
+                    <div><button class="btn" id="login">SUBMIT YOUR REVIEW</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div>© The Dealership Review • All Rights Reserved</div>
+    </div>
+</body>
+</html>
